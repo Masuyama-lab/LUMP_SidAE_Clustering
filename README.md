@@ -1,4 +1,4 @@
-# A Continual Self-Supervised Learning Framework usinga Decoder and a Clustering-based Data Selection Method
+# A Continual Self-Supervised Learning Framework using a Decoder and a Clustering-based Data Selection Method
 
 ## Installation
 ```
@@ -43,6 +43,22 @@ E.g.
 $ python main_LUMP_clustering_OOD.py -c configs/sidae_tinyimagenet.yaml --trained_model_dir ./checkpoints/lump+caplus_sidae_seq-tinyimg/ --ood_data_name seq-mnist 
 ```
 Instead of the command, you can set arguments in `arguments.py`.
+
+
+## Citation
+
+If you use this code in your research, please cite the following paper:
+
+R. Fujii, N. Masuyama, Y. Nojima, C. K. Loo, and L. W. Shiung, "A continual self-supervised learning framework using a decoder and a clustering-based data selection method," 2026, Accepted.
+
+```bibtex
+@article{fujii2026continual,
+  author  = {R. Fujii and N. Masuyama and Y. Nojima and C. K. Loo and L. W. Shiung},
+  title   = {A Continual Self-Supervised Learning Framework Using a Decoder and a Clustering-Based Data Selection Method},
+  year    = {2026},
+  note    = {Accepted}
+}
+```
 
 ## Acknowledgement
 The code is build upon [divyam3897/UCL](https://github.com/divyam3897/UCL).
